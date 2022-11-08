@@ -1,0 +1,13 @@
+:root {
+    --background-color: lightblue;
+    --Highlight-color: #1D8348;
+}
+
+body{
+    background-color: lightblue;
+}
+
+h1{
+    font-family: Arial;
+    font-size: 18px;
+}
