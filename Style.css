@@ -10,4 +10,26 @@ body{
 h1{
     font-family: Arial;
     font-size: 18px;
+    text-align: center;
 }
+
+table{
+    text-align: center;
+}
+
+.registros{
+    text-align: center;
+}
+.modal-field {
+    text-align: center;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.save {
+    background-color: green;
+}
+
+

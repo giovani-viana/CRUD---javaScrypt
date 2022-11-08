@@ -1,12 +1,5 @@
 'use strict'
 
-const openModal = () => document.getElementById('modal').classList.add('active')
-
-const closeModal = () => { //Retirar essa parte 
-    limpaCampo()
-    document.getElementById('modal').classList.remove('active')
-}
-
 const productManager = {
             nome: "Maça",
             id: "11092002",
@@ -63,12 +56,10 @@ const salvarProduto = () => {
         if(index == 'novo'){
             criarProduto(produto)
             refresh()
-            closeModal()
         } 
         else {
             atualizarProduto(index, produto)
             refresh()
-            closeModal()
         }
         
     }
@@ -83,8 +74,8 @@ const criarLinha = (produto, indice) => {
         <td>${produto.preço}</td>
         <td>${produto.validade}</td>
         <td>
-            <button type="button" class="botão editar" id = "editar-${indice}">editar</button>
-            <button type="button" class="botão excluir" id = "deletar-${indice}">excluir</button>
+            <button type="button" class="botão editar" id = "editar-${indice}">Editar</button>
+            <button type="button" class="botão excluir" id = "deletar-${indice}">Excluir</button>
         </td>
     `
     document.querySelector('#tabelaProdutos>tbody').appendChild(novaLinha)
@@ -113,7 +104,6 @@ const editarProduto = (indice) => {
     const products = lerProduto()[indice]
     products.index = indice
     preencheCampo(products)
-    openModal()
 }
 
 const deletar = (clique) => {
@@ -136,7 +126,5 @@ const deletar = (clique) => {
 
 refresh()
 
-document.getElementById('cadastrarProduto').addEventListener('click', openModal)
-document.getElementById('modalClose').addEventListener('click', closeModal)
 document.getElementById('salvar').addEventListener('click', salvarProduto)
 document.querySelector('#tabelaProdutos>tbody').addEventListener('click', deletar)
