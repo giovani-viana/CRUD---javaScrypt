@@ -1,0 +1,15 @@
+Olá para quem estiver lendo este código, me chamo Giovani Braga Oliveira Viana e estou aplicando 
+para uma vaga de DEV.
+
+Escolhi a linguagem JavaScrypt pois ainda estou aprendendo muito sobre seu funcioanmento
+ e gostaria de me aperfeiçoar nela. 
+
+Fiquei bem orgulhoso de mim enquanto arrumava e aprendia com os erros que surgiram
+enquanto eu desenvolvia esse projeto, foi uma ótima experiência de aprendizado.
+
+Muito Obrigado por seu tempo, espero que me considere para essa vaga :)
+
+    Sinceramente, 
+
+    Giovani Viana
+
